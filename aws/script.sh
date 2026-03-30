@@ -1,12 +1,16 @@
 #!/bin/bash
-sudo apt update
-sudo apt install mysql-client -y
+sudo -i
+apt update -y
+apt install mysql-client -y
+cd /home/ubuntu
 git clone https://github.com/abhipraydhoble/project-studentapp-aws.git
-sudo apt install openjdk-17-jdk -y
-sudo apt install maven -y
-sudo apt install nodejs npm -y
-sudo apt install apache2 -y
+apt install openjdk-17-jdk -y
+apt install maven -y
+apt install nodejs npm -y
+apt install apache2 -y
+echo "java verson is:"
 java -version
+echo "maven version is:"
 mvn -version
 npm -v
 node -v

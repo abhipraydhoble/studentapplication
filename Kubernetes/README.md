@@ -22,6 +22,15 @@ curl --silent --location \
 
 sudo mv /tmp/eksctl /usr/local/bin
 sudo chmod +x /usr/local/bin/eksctl
+
+sudo apt update -y
+sudo apt install docker.io  -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+docker --version
 ````
 ````
 aws --version

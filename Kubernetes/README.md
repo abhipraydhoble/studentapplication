@@ -188,3 +188,7 @@ docker push abhipraydh96/backend
 ````
 eksctl delete cluster --name eks-oncdecb36 --region ap-southeast-1
 ````
+---
+<img width="1337" height="658" alt="image" src="https://github.com/user-attachments/assets/6ad4c892-9c00-43dc-b3ea-499528df7685" />
+<img width="1150" height="551" alt="image" src="https://github.com/user-attachments/assets/899990b2-a038-457d-bb80-722e913e1035" />
+

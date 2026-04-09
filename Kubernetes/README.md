@@ -50,10 +50,7 @@ eksctl create cluster --name ekscluster --region ap-southeast-1 --version 1.35 -
 ````
 aws eks update-kubeconfig --name eks-oncdecb36
 ````
-**Delete EKS Cluster**
-````
-eksctl delete cluster --name eks-oncdecb36 --region ap-southeast-1
-````
+
 **Once Cluster is ready make sure to allow traffic in cluster sg**
 
 - Go to AWS Console → EKS
@@ -187,4 +184,7 @@ docker push abhipraydh96/backend
 <img width="1116" height="895" alt="image" src="https://github.com/user-attachments/assets/40b9ad2d-bd0d-40f5-bd8b-6be127999aac" />
 
 
-
+**Delete EKS Cluster**
+````
+eksctl delete cluster --name eks-oncdecb36 --region ap-southeast-1
+````

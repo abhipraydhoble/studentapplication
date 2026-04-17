@@ -6,7 +6,7 @@
 
 #!/bin/bash
 sudo apt update
-sudo apt install mysql-client -y
+sudo apt install mysql-client-core-8.0
 cd /home/ubuntu/
 git clone https://github.com/abhipraydhoble/studentapplication.git
 sudo apt update -y

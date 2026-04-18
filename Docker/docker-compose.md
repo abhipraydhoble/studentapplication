@@ -98,5 +98,5 @@ docker-compose up -d
 ````
 # Remove containers
 ````
-docker-compose down -d
+docker-compose down 
 ````

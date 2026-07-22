@@ -123,7 +123,7 @@ exit
 ### Clone Repository
 
 ```bash
-git clone https://github.com/abhipraydhoble/project-studentapp-aws.git
+git clone https://github.com/abhipraydhoble/studentapplication.git
 ```
 
 ---

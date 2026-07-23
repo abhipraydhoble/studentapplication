@@ -1,5 +1,6 @@
 ````
 sudo dnf update -y
+sudo yum install mariadb105-server -y
 sudo dnf install -y git
 sudo dnf install -y java-17-amazon-corretto-devel
 sudo dnf install -y maven

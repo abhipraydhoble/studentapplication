@@ -224,7 +224,7 @@ sudo apt install nodejs npm -y
 Edit file:
 
 ```
-vim src/api/userService.js
+sudo vim .env
 ```
 
 Example:

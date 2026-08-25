@@ -64,12 +64,12 @@ exit
 ```
 
 ---
-### Configure Database Connection
+### Configure Database Connection [BACKEND DIR]
 
 Edit file:
 
 ```bash
-vim src/main/resources/application.properties
+sudo vim src/main/resources/application.properties
 ```
 
 ### Build Docker image and push to dockerhub 
@@ -88,11 +88,11 @@ docker run -itd --name backend -p 8080:8080 abhipraydh96/backend
 
 
 ---
-### COnfigure Backend Frontend Connection
+### Configure Backend Frontend Connection [FRONTEND DIR]
 
 - edit file
 ````
-vim .env
+sudo vim .env
 ````
 - add instance ip addresss
 
